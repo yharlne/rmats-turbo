@@ -40,7 +40,7 @@ Tested with
   * numpy (1.16.6 or 1.16.5 for Python 2)
 - BLAS, LAPACK
 - GNU Scientific Library (GSL 2.5)
-- GCC (>=5.4.0)
+- GCC (>=5.4.0) or GXX (>=9.3.0) in Ubuntu
 - gfortran (Fortran 77)
 - CMake (3.15.4)
 - [PAIRADISE](https://github.com/Xinglab/PAIRADISE) (optional)
@@ -53,6 +53,12 @@ If the required dependencies are already installed, then rMATS can be built with
 ```
 ./build_rmats
 ```
+
+If the file is not executable, please use 
+```
+chmod +x ./build_rmats
+```
+And then built with the previous command
 
 And then run with:
 ```
